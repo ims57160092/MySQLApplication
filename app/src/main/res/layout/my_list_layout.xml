@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#0d0d0e"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:src="@drawable/mail"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="  TASK 1"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:id="@+id/listview_text"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:src="@drawable/cat"
+        android:id="@+id/imageView1" />
+
+
+
+</LinearLayout>
